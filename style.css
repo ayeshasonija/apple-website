@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    justify-content: space-around;
+    background-color: #1d1d1dc7;
+    color: #fff;
+    width: 100%;
+    height: 45px;
+    position: fixed;
+    z-index: 1;
+}
+.nav .fa-apple{
+    position: relative;
+    left: 150px;
+    top: 6px;
+}
+.nav-content{
+    margin-right: 120px;
+}
+.nav .nav-content .nav-items{
+    display: inline-block;
+    margin: 13px;
+    font-size: small;
+    cursor: pointer;
+}
+.carousel{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.carousel .caroudel-content{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.carousel h1{
+    font-size: 60px;
+}
+.carousel p{
+    font-size: 24px;
+}
+.carousel a{
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+    color: #2997ff;
+}
+.carousel a:hover{
+    text-decoration: underline;
+}
+.h1-2{
+    color: #000000;
+    font-weight: bold;
+    height: 50px;
+}
+.p-2{
+    color: #000000;
+    height: 40px;
+}
+.vision-pro img{
+    margin-top: 7px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.vision-pro{
+    position: relative;
+    text-align: center;
+    color: #000000;
+}
+.vision-pro .vision-content{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.vision-pro .vision-content h1{
+    font-weight: bold;
+    font-size: 50px;
+    height: 50px;
+}
+.vision-pro .vision-content p{
+    font-size: 24px;
+    height: 20px;
+}
+.vision-pro .vision-content a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+    color: #2997ff;
+}
+.vision-pro .vision-content a:hover{
+    text-decoration: underline;
+}
+.watch-macbook{
+    margin-top: 20px;
+}
+.watch{
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+.watch .watch-content{
+    position: absolute;
+    height: 60px;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.watch .watch-content h2{
+    font-weight: bold;
+}
+.watch .watch-content .small{
+    font-size: small;
+    height: 5px;
+    color: rgb(211, 3, 3);
+}
+.watch .watch-content p{
+    font-size: 18px;
+    height: 20px;
+}
+.watch .watch-content a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 15px;
+    color: #2997ff;
+}
+.watch .watch-content a:hover{
+    text-decoration: underline;
+}
+.macbook{
+    position: relative;
+    text-align: center;
+    color: #000000;
+}
+.macbook .macbook-content{
+    position: absolute;
+    height: 60px;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.macbook .macbook-content h2{
+    margin-top: 20px;
+    font-weight: bold;
+    height: 370px;
+}
+.macbook .macbook-content p{
+    font-size: 22px;
+    height: 30px;
+}
+.macbook .macbook-content a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 15px;
+    color: #2997ff;
+}
+.macbook .macbook-content a:hover{
+    text-decoration: underline;
+}
+.ipad-airpods{
+    margin-top: 20px;
+}
+.ipad img{
+    position: relative;
+    top: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ipad{
+    position: relative;
+    text-align: center;
+    color: #000000;
+}
+.ipad .ipad-content{
+    position: absolute;
+    height: 60px;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.ipad .ipad-content h2{
+    font-weight: bold;
+}
+.ipad .ipad-content p{
+    font-size: 22px;
+    height: 25px;
+}
+.ipad .ipad-content a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 15px;
+    color: #2997ff;
+}
+.ipad .ipad-content a:hover{
+    text-decoration: underline;
+}
+.airpods{
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+.airpods .airpods-content{
+    position: absolute;
+    height: 60px;
+    top: 10%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+.airpods .airpods-content h2{
+    font-weight: bold;
+}
+.airpods .airpods-content p{
+    font-size: 22px;
+    height: 25px;
+}
+.airpods .airpods-content a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 15px;
+    color: #2997ff;
+}
+.airpods .airpods-content a:hover{
+    text-decoration: underline;
+}
+.iphone-card{
+    margin-top: 20px;
+}
+.iphone{
+    position: relative;
+    text-align: center;
+    color: #000000;
+}
+.iphone .iphone-content{
+    position: absolute;
+    height: 60px;
+    top: 20%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+.iphone .iphone-content h2{
+    font-weight: bold;
+}
+.iphone .iphone-content p{
+    font-size: 22px;
+    height: 55px;
+}
+.iphone .iphone-content a{
+    text-decoration: none;
+    margin: 20px;
+    font-size: 15px;
+    color: #2997ff;
+}
+.iphone .iphone-content a:hover{
+    text-decoration: underline;
+}
+.a-card img{
+    position: relative;
+    top: 44%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.a-card{
+    position: relative;
+    text-align: center;
+    color: #000000;
+}
+.a-card .a-card-content{
+    position: absolute;
+    height: 60px;
+    top: 15%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+.a-card .a-card-content h2{
+    font-weight: bold;
+}
+.a-card .a-card-content p{
+    font-size: 22px;
+    height: 55px;
+}
+.a-card .a-card-content a{
+    text-decoration: none;
+    margin: 20px;
+    font-size: 15px;
+    color: #2997ff;
+}
+.a-card .a-card-content a:hover{
+    text-decoration: underline;
+}
+.btn-light{
+    padding: 10px;
+    width: 150px;
+    border: none;
+    border-radius: 50px;
+}
+.btn-light:hover{
+    background-color: #d4d4d4;
+}
+.end{
+    background-color: #dad9d973;
+}
+.end .container p{
+    font-size: smaller;
+    color: #333333cc;
+    padding: 0px 80px;
+}
+.end .container .col-3{
+    font-size: smaller;
+    margin-top: 10px;
+    text-decoration: none;
+    color:#333333cc ;
+}
+.end .container .col-3 li{
+    list-style-type: none;
+}
+.bold{
+    font-weight: bold;
+    color: #333333e3;
+}
